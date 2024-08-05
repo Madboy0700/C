@@ -18,7 +18,7 @@ API_HASH = getenv("API_HASH", "53d8f947e22c99664bcdfd460fb9ac98")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7282714112:AAH4M-B-IsttQpNMiGBnVwRS-zu9Tv_iVRg")
+BOT_TOKEN = getenv("BOT_TOKEN", "7282714112:AAFMfT1rkKGzJAeA2pj5SVMHanWpLT-kHpw")
 # Database to save your chats and stats.
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
