@@ -12,13 +12,13 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "22176908"))
+API_ID = int(getenv("API_ID", "24054192"))
 
-API_HASH = getenv("API_HASH", "4db7c74bbfd6416e8184bf75b877cb72")
+API_HASH = getenv("API_HASH", "ed9a8a61a1b4a1ad0915cbe87ba490ed")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7282714112:AAH44dvjycisNX3zgPhmjXswlxCMoLg9K1A")
+BOT_TOKEN = getenv("BOT_TOKEN", "7306038083:AAGad2TZlOAcNzThFRkfDzXK4IBEtngHhS0")
 # Database to save your chats and stats.
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
@@ -41,17 +41,17 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002238574089"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","gecemuzicBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","Pulse Music Bot")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "7305205222").split())
+    map(int, getenv("OWNER_ID", "5901320319").split())
 
 )  # Input type must be interger
 
@@ -137,7 +137,10 @@ GITHUB_REPO = getenv("GITHUB_REPO", None)
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2041df9cbcd142cba804578a2cf85939")
 
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "80ffd296320e49299830e80b11e3bf73")# Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "80ffd296320e49299830e80b11e3bf73")
+
+
+# Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "10"))
 
@@ -181,7 +184,7 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING1 = getenv("STRING_SESSION", "BAFSZIwAvRkZkNnlMtXDOBoY5JeqprBRi-lxylmduWuWdqgorQjoPLlHEMuZnGA44_60qz_YWMslqiGwzf31ZYJSyFNDvWstyK5AQ6wx2rEDzmzX4ewCwa6iMTIxV7-viscJl9PHEVDozqh_p8Yi8HTdQLWyWbCsahOiVmv98a6psejfKCTHWN9OBqvZ9NcZ3Xu7INOvdwrwmRmqC6WXrfQftDbpbPc9BXK1ey848Zf_LxOcsjw5Bi_cST6thdVUHC1P2gOndDuX5744qzEv4iPtcX8v5MnmbkIt50BVNK-QFf6NgqJ2Crk039E37mFIrXecpVwhMlYEsgYlQu6hVgLD98fKswAAAAG-gHJsAA")
+STRING1 = getenv("STRING_SESSION", "BAAGtVnawoafEoHr7rzDa7VTTY_U3r0X9Gv4qw5UGorddfWZ8xbu1vgRT0cqhraAx3J-rAAYoxXXEvZp-bAg_OZaFx-O1kg6BlKLovpW7I2P1OxVjWEhLKDmTPx2MKhpKTgrV3m0ksa4uiJt7GAyc656OJR_eHGwXYQKCEauDrqjIB9t67KFcxgmI2CsUTGAR77f7NMIUbG49gwSUZk-jBSc9Co7oZujwuNkHkq2vxMAdZTZZEGszGqvNcYOAwXBjtry6X1opkOy9LlaP3Ofxjc0G8JmU0V4rtklGEIKvIUBZpI3uNQAV10xzoBL8ExopbSD3Kjjs7W_4SlPUqEB0U2hAAAAAV-_AH8A")
 
 STRING2 = getenv("STRING_SESSION2", None)
 
